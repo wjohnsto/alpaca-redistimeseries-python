@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "market-info-redis-python"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+pandas = "^1.2.0"
+pydantic = {extras = ["email"], version = "^1.8.2"}
+numpy = "^1.22.2"
+scipy = "^1.8.0"
+websockets = "^9.0.1"
+alpaca-trade-api = "^1.5.0"
+certifi = "^2021.10.8"
+redistimeseries = "^1.4.4"
+matplotlib = "^3.5.1"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
